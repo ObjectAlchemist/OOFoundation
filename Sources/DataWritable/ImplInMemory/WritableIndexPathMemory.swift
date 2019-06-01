@@ -41,11 +41,11 @@ public final class WritableIndexPathMemory: OOWritableIndexPath {
 // convenience initializer
 public extension WritableIndexPathMemory {
     
-    public convenience init(_ initial: IndexPath) {
+    convenience init(_ initial: IndexPath) {
         self.init(optInitial: initial)
     }
     
-    public convenience init() {
+    convenience init() {
         self.init(optInitial: nil)
     }
     

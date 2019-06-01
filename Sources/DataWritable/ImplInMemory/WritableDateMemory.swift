@@ -41,11 +41,11 @@ public final class WritableDateMemory: OOWritableDate {
 // convenience initializer
 public extension WritableDateMemory {
     
-    public convenience init(_ initial: Date) {
+    convenience init(_ initial: Date) {
         self.init(optInitial: initial)
     }
     
-    public convenience init() {
+    convenience init() {
         self.init(optInitial: nil)
     }
     

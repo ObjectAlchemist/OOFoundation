@@ -41,11 +41,11 @@ public final class WritableDataMemory: OOWritableData {
 // convenience initializer
 public extension WritableDataMemory {
     
-    public convenience init(_ initial: Data) {
+    convenience init(_ initial: Data) {
         self.init(optInitial: initial)
     }
     
-    public convenience init() {
+    convenience init() {
         self.init(optInitial: nil)
     }
     

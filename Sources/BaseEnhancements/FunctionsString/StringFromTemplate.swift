@@ -33,31 +33,31 @@ public final class StringFromTemplate: OOString {
 // convenience initializer
 public extension StringFromTemplate {
     
-    public convenience init(_ template: String, value: String) {
+    convenience init(_ template: String, value: String) {
         self.init(StringConst(template), values: [StringConst(value)])
     }
     
-    public convenience init(_ template: OOString, value: String) {
+    convenience init(_ template: OOString, value: String) {
         self.init(template, values: [StringConst(value)])
     }
     
-    public convenience init(_ template: String, value: OOString) {
+    convenience init(_ template: String, value: OOString) {
         self.init(StringConst(template), values: [value])
     }
     
-    public convenience init(_ template: OOString, value: OOString) {
+    convenience init(_ template: OOString, value: OOString) {
         self.init(template, values: [value])
     }
     
-    public convenience init(_ template: String, values: [String]) {
+    convenience init(_ template: String, values: [String]) {
         self.init(StringConst(template), values: values.map { StringConst($0) } )
     }
     
-    public convenience init(_ template: String, values: [OOString]) {
+    convenience init(_ template: String, values: [OOString]) {
         self.init(StringConst(template), values: values )
     }
     
-    public convenience init(_ template: OOString, values: [String]) {
+    convenience init(_ template: OOString, values: [String]) {
         self.init(template, values: values.map { StringConst($0) } )
     }
     

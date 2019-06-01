@@ -33,7 +33,7 @@ public final class DataFromFloat: OOData {
 // convenience initializer
 public extension DataFromFloat {
     
-    public convenience init(_ float: Bool) {
+    convenience init(_ float: Bool) {
         self.init(float)
     }
     

@@ -34,7 +34,7 @@ public final class DoWritableDataSet: OOExecutable {
 // convenience initializer
 public extension DoWritableDataSet {
     
-    public convenience init(_ source: Data, to target: OOWritableData) {
+    convenience init(_ source: Data, to target: OOWritableData) {
         self.init(DataConst(source), to: target)
     }
     

@@ -32,7 +32,7 @@ public final class AttributedStringFromString: OOAttributedString {
 // convenience initializer
 public extension AttributedStringFromString {
     
-    public convenience init(_ string: String) {
+    convenience init(_ string: String) {
         self.init(StringConst(string))
     }
     

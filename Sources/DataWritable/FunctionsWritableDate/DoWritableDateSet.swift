@@ -34,7 +34,7 @@ public final class DoWritableDateSet: OOExecutable {
 // convenience initializer
 public extension DoWritableDateSet {
     
-    public convenience init(_ source: Date, to target: OOWritableDate) {
+    convenience init(_ source: Date, to target: OOWritableDate) {
         self.init(DateConst(source), to: target)
     }
     

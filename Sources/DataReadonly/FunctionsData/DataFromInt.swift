@@ -33,7 +33,7 @@ public final class DataFromInt: OOData {
 // convenience initializer
 public extension DataFromInt {
     
-    public convenience init(_ int: Int) {
+    convenience init(_ int: Int) {
         self.init(int)
     }
     

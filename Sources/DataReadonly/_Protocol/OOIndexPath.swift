@@ -55,7 +55,7 @@ open /*abstract*/ class OOIndexPathWrap: OOIndexPath {
 // OOAny compatibility
 public extension OOIndexPath {
     
-    public var value: Any {
+    var value: Any {
         return value as IndexPath
     }
     

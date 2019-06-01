@@ -34,7 +34,7 @@ public final class DoWritableAttributedStringSet: OOExecutable {
 // convenience initializer
 public extension DoWritableAttributedStringSet {
     
-    public convenience init(_ source: NSAttributedString, to target: OOWritableAttributedString) {
+    convenience init(_ source: NSAttributedString, to target: OOWritableAttributedString) {
         self.init(AttributedStringConst(source), to: target)
     }
     

@@ -55,7 +55,7 @@ open /*abstract*/ class OOURLWrap: OOURL {
 // OOAny compatibility
 public extension OOURL {
     
-    public var value: Any {
+    var value: Any {
         return value as URL
     }
     

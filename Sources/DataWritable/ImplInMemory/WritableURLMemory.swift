@@ -41,11 +41,11 @@ public final class WritableURLMemory: OOWritableURL {
 // convenience initializer
 public extension WritableURLMemory {
     
-    public convenience init(_ initial: URL) {
+    convenience init(_ initial: URL) {
         self.init(optInitial: initial)
     }
     
-    public convenience init() {
+    convenience init() {
         self.init(optInitial: nil)
     }
     

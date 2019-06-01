@@ -36,31 +36,31 @@ public final class DateIF: OODate {
 // convenience initializer
 public extension DateIF {
     
-    public convenience init(_ bool: Bool, THEN primary: Date, ELSE secondary: Date) {
+    convenience init(_ bool: Bool, THEN primary: Date, ELSE secondary: Date) {
         self.init(BoolConst(bool), THEN: DateConst(primary), ELSE: DateConst(secondary))
     }
     
-    public convenience init(_ bool: Bool, THEN primary: Date, ELSE secondary: OODate) {
+    convenience init(_ bool: Bool, THEN primary: Date, ELSE secondary: OODate) {
         self.init(BoolConst(bool), THEN: DateConst(primary), ELSE: secondary)
     }
     
-    public convenience init(_ bool: Bool, THEN primary: OODate, ELSE secondary: Date) {
+    convenience init(_ bool: Bool, THEN primary: OODate, ELSE secondary: Date) {
         self.init(BoolConst(bool), THEN: primary, ELSE: DateConst(secondary))
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: Date, ELSE secondary: Date) {
+    convenience init(_ bool: OOBool, THEN primary: Date, ELSE secondary: Date) {
         self.init(bool, THEN: DateConst(primary), ELSE: DateConst(secondary))
     }
     
-    public convenience init(_ bool: Bool, THEN primary: OODate, ELSE secondary: OODate) {
+    convenience init(_ bool: Bool, THEN primary: OODate, ELSE secondary: OODate) {
         self.init(BoolConst(bool), THEN: primary, ELSE: secondary)
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: Date, ELSE secondary: OODate) {
+    convenience init(_ bool: OOBool, THEN primary: Date, ELSE secondary: OODate) {
         self.init(bool, THEN: DateConst(primary), ELSE: secondary)
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: OODate, ELSE secondary: Date) {
+    convenience init(_ bool: OOBool, THEN primary: OODate, ELSE secondary: Date) {
         self.init(bool, THEN: primary, ELSE: DateConst(secondary))
     }
     

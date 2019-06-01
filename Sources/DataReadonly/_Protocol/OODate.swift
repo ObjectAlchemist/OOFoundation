@@ -55,7 +55,7 @@ open /*abstract*/ class OODateWrap: OODate {
 // OOAny compatibility
 public extension OODate {
     
-    public var value: Any {
+    var value: Any {
         return value as Date
     }
     

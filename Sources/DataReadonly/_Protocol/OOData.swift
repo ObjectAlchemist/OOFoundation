@@ -55,7 +55,7 @@ open /*abstract*/ class OODataWrap: OOData {
 // OOAny compatibility
 public extension OOData {
     
-    public var value: Any {
+    var value: Any {
         return value as Data
     }
     

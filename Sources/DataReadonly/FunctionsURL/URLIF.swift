@@ -36,31 +36,31 @@ public final class URLIF: OOURL {
 // convenience initializer
 public extension URLIF {
     
-    public convenience init(_ bool: Bool, THEN primary: URL, ELSE secondary: URL) {
+    convenience init(_ bool: Bool, THEN primary: URL, ELSE secondary: URL) {
         self.init(BoolConst(bool), THEN: URLConst(primary), ELSE: URLConst(secondary))
     }
     
-    public convenience init(_ bool: Bool, THEN primary: URL, ELSE secondary: OOURL) {
+    convenience init(_ bool: Bool, THEN primary: URL, ELSE secondary: OOURL) {
         self.init(BoolConst(bool), THEN: URLConst(primary), ELSE: secondary)
     }
     
-    public convenience init(_ bool: Bool, THEN primary: OOURL, ELSE secondary: URL) {
+    convenience init(_ bool: Bool, THEN primary: OOURL, ELSE secondary: URL) {
         self.init(BoolConst(bool), THEN: primary, ELSE: URLConst(secondary))
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: URL, ELSE secondary: URL) {
+    convenience init(_ bool: OOBool, THEN primary: URL, ELSE secondary: URL) {
         self.init(bool, THEN: URLConst(primary), ELSE: URLConst(secondary))
     }
     
-    public convenience init(_ bool: Bool, THEN primary: OOURL, ELSE secondary: OOURL) {
+    convenience init(_ bool: Bool, THEN primary: OOURL, ELSE secondary: OOURL) {
         self.init(BoolConst(bool), THEN: primary, ELSE: secondary)
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: URL, ELSE secondary: OOURL) {
+    convenience init(_ bool: OOBool, THEN primary: URL, ELSE secondary: OOURL) {
         self.init(bool, THEN: URLConst(primary), ELSE: secondary)
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: OOURL, ELSE secondary: URL) {
+    convenience init(_ bool: OOBool, THEN primary: OOURL, ELSE secondary: URL) {
         self.init(bool, THEN: primary, ELSE: URLConst(secondary))
     }
     

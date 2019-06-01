@@ -34,7 +34,7 @@ public final class DoWritableURLSet: OOExecutable {
 // convenience initializer
 public extension DoWritableURLSet {
     
-    public convenience init(_ source: URL, to target: OOWritableURL) {
+    convenience init(_ source: URL, to target: OOWritableURL) {
         self.init(URLConst(source), to: target)
     }
     

@@ -36,31 +36,31 @@ public final class IndexPathIF: OOIndexPath {
 // convenience initializer
 public extension IndexPathIF {
     
-    public convenience init(_ bool: Bool, THEN primary: IndexPath, ELSE secondary: IndexPath) {
+    convenience init(_ bool: Bool, THEN primary: IndexPath, ELSE secondary: IndexPath) {
         self.init(BoolConst(bool), THEN: IndexPathConst(primary), ELSE: IndexPathConst(secondary))
     }
     
-    public convenience init(_ bool: Bool, THEN primary: IndexPath, ELSE secondary: OOIndexPath) {
+    convenience init(_ bool: Bool, THEN primary: IndexPath, ELSE secondary: OOIndexPath) {
         self.init(BoolConst(bool), THEN: IndexPathConst(primary), ELSE: secondary)
     }
     
-    public convenience init(_ bool: Bool, THEN primary: OOIndexPath, ELSE secondary: IndexPath) {
+    convenience init(_ bool: Bool, THEN primary: OOIndexPath, ELSE secondary: IndexPath) {
         self.init(BoolConst(bool), THEN: primary, ELSE: IndexPathConst(secondary))
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: IndexPath, ELSE secondary: IndexPath) {
+    convenience init(_ bool: OOBool, THEN primary: IndexPath, ELSE secondary: IndexPath) {
         self.init(bool, THEN: IndexPathConst(primary), ELSE: IndexPathConst(secondary))
     }
     
-    public convenience init(_ bool: Bool, THEN primary: OOIndexPath, ELSE secondary: OOIndexPath) {
+    convenience init(_ bool: Bool, THEN primary: OOIndexPath, ELSE secondary: OOIndexPath) {
         self.init(BoolConst(bool), THEN: primary, ELSE: secondary)
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: IndexPath, ELSE secondary: OOIndexPath) {
+    convenience init(_ bool: OOBool, THEN primary: IndexPath, ELSE secondary: OOIndexPath) {
         self.init(bool, THEN: IndexPathConst(primary), ELSE: secondary)
     }
     
-    public convenience init(_ bool: OOBool, THEN primary: OOIndexPath, ELSE secondary: IndexPath) {
+    convenience init(_ bool: OOBool, THEN primary: OOIndexPath, ELSE secondary: IndexPath) {
         self.init(bool, THEN: primary, ELSE: IndexPathConst(secondary))
     }
     

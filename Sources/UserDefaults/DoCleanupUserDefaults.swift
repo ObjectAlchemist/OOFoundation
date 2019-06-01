@@ -40,7 +40,7 @@ public final class DoCleanupUserDefaults: OOExecutable {
 // convenience initializer
 public extension DoCleanupUserDefaults {
     
-    public convenience init(prefix: String, userDefaults: UserDefaults = UserDefaults.standard) {
+    convenience init(prefix: String, userDefaults: UserDefaults = UserDefaults.standard) {
         self.init(prefix: StringConst(prefix), userDefaults: userDefaults)
     }
     

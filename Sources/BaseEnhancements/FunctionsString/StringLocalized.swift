@@ -36,15 +36,15 @@ public final class StringLocalized: OOString {
 // convenience initializer
 public extension StringLocalized {
     
-    public convenience init(_ identifier: String, from fileName: String, bundle: Bundle = Bundle.main) {
+    convenience init(_ identifier: String, from fileName: String, bundle: Bundle = Bundle.main) {
         self.init(StringConst(identifier), from: StringConst(fileName), bundle: bundle)
     }
     
-    public convenience init(_ identifier: OOString, from fileName: String, bundle: Bundle = Bundle.main) {
+    convenience init(_ identifier: OOString, from fileName: String, bundle: Bundle = Bundle.main) {
         self.init(identifier, from: StringConst(fileName), bundle: bundle)
     }
     
-    public convenience init(_ identifier: String, from fileName: OOString, bundle: Bundle = Bundle.main) {
+    convenience init(_ identifier: String, from fileName: OOString, bundle: Bundle = Bundle.main) {
         self.init(StringConst(identifier), from: fileName, bundle: bundle)
     }
     

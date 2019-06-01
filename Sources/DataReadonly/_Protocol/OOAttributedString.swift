@@ -55,7 +55,7 @@ open /*abstract*/ class OOAttributedStringWrap: OOAttributedString {
 // OOAny compatibility
 public extension OOAttributedString {
     
-    public var value: Any {
+    var value: Any {
         return value as NSAttributedString
     }
     

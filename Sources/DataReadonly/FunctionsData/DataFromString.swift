@@ -33,7 +33,7 @@ public final class DataFromString: OOData {
 // convenience initializer
 public extension DataFromString {
     
-    public convenience init(value: String, encoding: String.Encoding = .utf8) {
+    convenience init(value: String, encoding: String.Encoding = .utf8) {
         self.init(value: StringConst(value), encoding: encoding)
     }
     

@@ -41,11 +41,11 @@ public final class WritableAttributedStringMemory: OOWritableAttributedString {
 // convenience initializer
 public extension WritableAttributedStringMemory {
     
-    public convenience init(_ initial: NSAttributedString) {
+    convenience init(_ initial: NSAttributedString) {
         self.init(optInitial: initial)
     }
     
-    public convenience init() {
+    convenience init() {
         self.init(optInitial: nil)
     }
     

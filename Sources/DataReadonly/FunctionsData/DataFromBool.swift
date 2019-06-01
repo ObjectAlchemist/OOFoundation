@@ -33,7 +33,7 @@ public final class DataFromBool: OOData {
 // convenience initializer
 public extension DataFromBool {
     
-    public convenience init(_ bool: Bool) {
+    convenience init(_ bool: Bool) {
         self.init(bool)
     }
     

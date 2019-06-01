@@ -34,7 +34,7 @@ public final class DoWritableIndexPathSet: OOExecutable {
 // convenience initializer
 public extension DoWritableIndexPathSet {
     
-    public convenience init(_ source: IndexPath, to target: OOWritableIndexPath) {
+    convenience init(_ source: IndexPath, to target: OOWritableIndexPath) {
         self.init(IndexPathConst(source), to: target)
     }
     
