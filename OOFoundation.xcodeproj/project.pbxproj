@@ -129,7 +129,7 @@
 		6958EEA4F22D91972CB2EE27 /* Release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		6B8ED3A578232D8AF8EA59CD /* Debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
 		6BEDA4ED488D25E0D04186F7 /* OOAttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOAttributedString.swift; sourceTree = "<group>"; };
-		781C4A8A53EB3F81F536F3A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		781C4A8A53EB3F81F536F3A4 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		7EC1F97CB3B52E308B04A6BE /* OOWritableIndexPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOWritableIndexPath.swift; sourceTree = "<group>"; };
 		81906F7BBD61D04C0A6802BD /* DoCleanupUserDefaults.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoCleanupUserDefaults.swift; sourceTree = "<group>"; };
 		81DEAC562058660EB2F5BC8E /* Debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Debug.xcconfig; sourceTree = "<group>"; };
@@ -139,7 +139,7 @@
 		85952FC62031A69D1C7BED31 /* AttributedStringFromString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = AttributedStringFromString.swift; sourceTree = "<group>"; };
 		88733CF4A4DD8D700CBE082C /* Release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Release.xcconfig; sourceTree = "<group>"; };
 		8967E5A35D9B45CF1D47DA31 /* DateConst.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateConst.swift; sourceTree = "<group>"; };
-		8E1910C16DD45FEE3CD652A9 /* Makefile */ = {isa = PBXFileReference; includeInIndex = 1; path = Makefile; sourceTree = "<group>"; };
+		8E1910C16DD45FEE3CD652A9 /* Makefile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.make; path = Makefile; sourceTree = "<group>"; };
 		8E7CF9875FE2F6FB21CC40B2 /* StringFromAttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = StringFromAttributedString.swift; sourceTree = "<group>"; };
 		8FEE6B87C55D1266A0F6B35D /* DataFromBool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataFromBool.swift; sourceTree = "<group>"; };
 		962973B82ADF28148DFE0D66 /* IndexPathCached.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = IndexPathCached.swift; sourceTree = "<group>"; };
@@ -148,23 +148,23 @@
 		A7F9AA6F40050459CB085901 /* DoWritableDataRemove.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableDataRemove.swift; sourceTree = "<group>"; };
 		AAD0A0E1DCE2674D306E22A1 /* DoObjCSpec.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoObjCSpec.swift; sourceTree = "<group>"; };
 		ABB5FCA8D008E0A7198E304C /* DataFromInt.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataFromInt.swift; sourceTree = "<group>"; };
-		ACD8F3A7E925A8AC2F51270A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		ACD8F3A7E925A8AC2F51270A /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		B1F30A66EFB2E8AE43030E59 /* DataFromFloat.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataFromFloat.swift; sourceTree = "<group>"; };
 		B2A664929D42451944B35FEE /* OOData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOData.swift; sourceTree = "<group>"; };
 		B6D3E48387BA86D0846EF388 /* DoObjC.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoObjC.swift; sourceTree = "<group>"; };
 		B92BCE618253730C64333CE9 /* OOWritableAttributedString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOWritableAttributedString.swift; sourceTree = "<group>"; };
 		BA36D71BAB48DAFF2B286E50 /* DoWritableIndexPathRemove.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableIndexPathRemove.swift; sourceTree = "<group>"; };
-		C32BA4EE787D27D0ACA01F32 /* OOFoundation.pxproject */ = {isa = PBXFileReference; includeInIndex = 1; path = OOFoundation.pxproject; sourceTree = "<group>"; };
+		C32BA4EE787D27D0ACA01F32 /* OOFoundation.pxproject */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = OOFoundation.pxproject; sourceTree = "<group>"; };
 		C64854C27F44ABEBE8BF79FB /* DateIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DateIF.swift; sourceTree = "<group>"; };
 		C85F42D81AAFCA2F40A09CC4 /* OOBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = OOBase.framework; sourceTree = "<group>"; };
 		C90A5CEB0E2FF85B488BAFB5 /* DataIF.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DataIF.swift; sourceTree = "<group>"; };
 		D2CFAEAB9E2DDEC0988BFA9A /* HasWritableIndexPathValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HasWritableIndexPathValue.swift; sourceTree = "<group>"; };
-		D3F890A4793E921C51A6475F /* Cartfile */ = {isa = PBXFileReference; includeInIndex = 1; path = Cartfile; sourceTree = "<group>"; };
+		D3F890A4793E921C51A6475F /* Cartfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = Cartfile; sourceTree = "<group>"; };
 		D5D4F264809A0149FA9C93BE /* OOIndexPath.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = OOIndexPath.swift; sourceTree = "<group>"; };
 		D5ED07B436B875756ADCE7E0 /* WritableDateMemory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableDateMemory.swift; sourceTree = "<group>"; };
 		D8E86009AD72B3B0DA26F5C9 /* HasWritableURLValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = HasWritableURLValue.swift; sourceTree = "<group>"; };
-		DE254F4F48C71C831B6E9681 /* Cartfile.resolved */ = {isa = PBXFileReference; includeInIndex = 1; path = Cartfile.resolved; sourceTree = "<group>"; };
-		DE6D0B40A93F31951B5DA878 /* .gitignore */ = {isa = PBXFileReference; includeInIndex = 1; path = .gitignore; sourceTree = "<group>"; };
+		DE254F4F48C71C831B6E9681 /* Cartfile.resolved */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = Cartfile.resolved; sourceTree = "<group>"; };
+		DE6D0B40A93F31951B5DA878 /* .gitignore */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 		E04CC04FD30010D27D6DD0BD /* WritableDataMemory.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = WritableDataMemory.swift; sourceTree = "<group>"; };
 		E61DC0909453EB1391235D7F /* URLFromString.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = URLFromString.swift; sourceTree = "<group>"; };
 		E874F2061C1C04FA5A9D6A5C /* DoWritableURLSet.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = DoWritableURLSet.swift; sourceTree = "<group>"; };
@@ -211,7 +211,6 @@
 				D5D4F264809A0149FA9C93BE /* OOIndexPath.swift */,
 				85030417EEA85FF373E73C6E /* OOURL.swift */,
 			);
-			name = _Protocol;
 			path = _Protocol;
 			sourceTree = "<group>";
 		};
@@ -226,7 +225,6 @@
 				C32BA4EE787D27D0ACA01F32 /* OOFoundation.pxproject */,
 				781C4A8A53EB3F81F536F3A4 /* README.md */,
 			);
-			name = .;
 			path = .;
 			sourceTree = "<group>";
 		};
@@ -236,7 +234,6 @@
 				B6D3E48387BA86D0846EF388 /* DoObjC.swift */,
 				AAD0A0E1DCE2674D306E22A1 /* DoObjCSpec.swift */,
 			);
-			name = ObjectiveC;
 			path = ObjectiveC;
 			sourceTree = "<group>";
 		};
@@ -249,7 +246,6 @@
 				FF067902DC98CEBC0DD4A071 /* WritableIndexPathMemory.swift */,
 				1BB6BECF8097D45D8E3D92DF /* WritableURLMemory.swift */,
 			);
-			name = ImplInMemory;
 			path = ImplInMemory;
 			sourceTree = "<group>";
 		};
@@ -260,7 +256,6 @@
 				DD7AFB4EF610CB45449D680D /* Target */,
 				3CDB80DB1A51B8F98C452804 /* TargetTests */,
 			);
-			name = Configuration;
 			path = Configuration;
 			sourceTree = "<group>";
 		};
@@ -271,7 +266,6 @@
 				E61DC0909453EB1391235D7F /* URLFromString.swift */,
 				F23E3D4A68D98B66E4469979 /* URLIF.swift */,
 			);
-			name = FunctionsURL;
 			path = FunctionsURL;
 			sourceTree = "<group>";
 		};
@@ -281,7 +275,6 @@
 				81906F7BBD61D04C0A6802BD /* DoCleanupUserDefaults.swift */,
 				FD1CFB790CE580F04DC9A8B1 /* WritableKeyValueUserDefaults.swift */,
 			);
-			name = UserDefaults;
 			path = UserDefaults;
 			sourceTree = "<group>";
 		};
@@ -292,7 +285,6 @@
 				84F3BEA278B66A7D01D75039 /* Info.plist */,
 				6958EEA4F22D91972CB2EE27 /* Release.xcconfig */,
 			);
-			name = TargetTests;
 			path = TargetTests;
 			sourceTree = "<group>";
 		};
@@ -305,7 +297,6 @@
 				3EEC345C7563F78B50DEE367 /* StringFromURL.swift */,
 				3D418C517368AECAD4AB0774 /* StringLocalized.swift */,
 			);
-			name = FunctionsString;
 			path = FunctionsString;
 			sourceTree = "<group>";
 		};
@@ -316,7 +307,6 @@
 				0E0EFFC0DD9C451DD8472E9F /* DoWritableDataSet.swift */,
 				4A8A815A0BDDA1A6E35FA117 /* HasWritableDataValue.swift */,
 			);
-			name = FunctionsWritableData;
 			path = FunctionsWritableData;
 			sourceTree = "<group>";
 		};
@@ -325,7 +315,6 @@
 			children = (
 				C85F42D81AAFCA2F40A09CC4 /* OOBase.framework */,
 			);
-			name = iOS;
 			path = iOS;
 			sourceTree = "<group>";
 		};
@@ -340,7 +329,6 @@
 				3185F10696ACDE0E91EB24AF /* FunctionsURL */,
 				FEEFCD058D6CAAA48F19E10A /* ImplConst */,
 			);
-			name = DataReadonly;
 			path = DataReadonly;
 			sourceTree = "<group>";
 		};
@@ -350,7 +338,6 @@
 				962973B82ADF28148DFE0D66 /* IndexPathCached.swift */,
 				52FFD61004C8BE39FF6442EB /* IndexPathIF.swift */,
 			);
-			name = FunctionsIndexPath;
 			path = FunctionsIndexPath;
 			sourceTree = "<group>";
 		};
@@ -359,7 +346,6 @@
 			children = (
 				984D27E882E996562116D024 /* DoRegularly.swift */,
 			);
-			name = FunctionsExecutable;
 			path = FunctionsExecutable;
 			sourceTree = "<group>";
 		};
@@ -369,7 +355,6 @@
 				FED76DF59B08F6E03BA4E417 /* Debug.xcconfig */,
 				26879719B0067EBCC9326E0A /* Release.xcconfig */,
 			);
-			name = Project;
 			path = Project;
 			sourceTree = "<group>";
 		};
@@ -378,7 +363,6 @@
 			children = (
 				55CED2CA22833CF340CFA75D /* iOS */,
 			);
-			name = Build;
 			path = Build;
 			sourceTree = "<group>";
 		};
@@ -393,7 +377,6 @@
 				A8D6EF90B05074067F9273AB /* FunctionsWritableURL */,
 				09971A6D9D99E868DF087CB1 /* ImplInMemory */,
 			);
-			name = DataWritable;
 			path = DataWritable;
 			sourceTree = "<group>";
 		};
@@ -404,7 +387,6 @@
 				A01C86DCF547FEF68F596060 /* DoWritableIndexPathSet.swift */,
 				D2CFAEAB9E2DDEC0988BFA9A /* HasWritableIndexPathValue.swift */,
 			);
-			name = FunctionsWritableIndexPath;
 			path = FunctionsWritableIndexPath;
 			sourceTree = "<group>";
 		};
@@ -415,7 +397,6 @@
 				E874F2061C1C04FA5A9D6A5C /* DoWritableURLSet.swift */,
 				D8E86009AD72B3B0DA26F5C9 /* HasWritableURLValue.swift */,
 			);
-			name = FunctionsWritableURL;
 			path = FunctionsWritableURL;
 			sourceTree = "<group>";
 		};
@@ -437,7 +418,6 @@
 				F3DA9801A290A53E3D58493B /* DataFromString.swift */,
 				C90A5CEB0E2FF85B488BAFB5 /* DataIF.swift */,
 			);
-			name = FunctionsData;
 			path = FunctionsData;
 			sourceTree = "<group>";
 		};
@@ -448,7 +428,6 @@
 				1AD5F8107B7F5C7EC4E62A04 /* DoWritableAttributedStringSet.swift */,
 				4BC86D29131670B530968FAB /* HasWritableAttributedStringValue.swift */,
 			);
-			name = FunctionsWritableAttributedString;
 			path = FunctionsWritableAttributedString;
 			sourceTree = "<group>";
 		};
@@ -458,7 +437,6 @@
 				135D1A87CEC56A9DA56BA6F9 /* DateCached.swift */,
 				C64854C27F44ABEBE8BF79FB /* DateIF.swift */,
 			);
-			name = FunctionsDate;
 			path = FunctionsDate;
 			sourceTree = "<group>";
 		};
@@ -469,7 +447,6 @@
 				F114A15E5D0923598261FAAE /* DoWritableDateSet.swift */,
 				EA9036FD57ABF77B03C77A6B /* HasWritableDateValue.swift */,
 			);
-			name = FunctionsWritableDate;
 			path = FunctionsWritableDate;
 			sourceTree = "<group>";
 		};
@@ -480,7 +457,6 @@
 				85952FC62031A69D1C7BED31 /* AttributedStringFromString.swift */,
 				4C49AA68B5E802E1FD6ABE47 /* AttributedStringIF.swift */,
 			);
-			name = FunctionsAttributedString;
 			path = FunctionsAttributedString;
 			sourceTree = "<group>";
 		};
@@ -512,7 +488,6 @@
 				2A42EABA7A416ABCB734D4F0 /* Info.plist */,
 				88733CF4A4DD8D700CBE082C /* Release.xcconfig */,
 			);
-			name = Target;
 			path = Target;
 			sourceTree = "<group>";
 		};
@@ -525,7 +500,6 @@
 				0974E681467E46D5B5972882 /* ObjectiveC */,
 				35C04E4CFDA2DF48D03DBDCB /* UserDefaults */,
 			);
-			name = Sources;
 			path = Sources;
 			sourceTree = "<group>";
 		};
@@ -542,7 +516,6 @@
 			children = (
 				93B73CA621D40BC55EC91369 /* Build */,
 			);
-			name = Carthage;
 			path = Carthage;
 			sourceTree = "<group>";
 		};
@@ -552,7 +525,6 @@
 				6FAB4027F1EAFCEC457E3B05 /* FunctionsExecutable */,
 				3D3F58D7F5773CF364F776B1 /* FunctionsString */,
 			);
-			name = BaseEnhancements;
 			path = BaseEnhancements;
 			sourceTree = "<group>";
 		};
@@ -565,7 +537,6 @@
 				7EC1F97CB3B52E308B04A6BE /* OOWritableIndexPath.swift */,
 				0472B5088C2E0BADDC02747E /* OOWritableURL.swift */,
 			);
-			name = _Protocol;
 			path = _Protocol;
 			sourceTree = "<group>";
 		};
@@ -578,7 +549,6 @@
 				27C348A788D4D07E6D6643E9 /* IndexPathConst.swift */,
 				23537A6869347EECB080B30E /* URLConst.swift */,
 			);
-			name = ImplConst;
 			path = ImplConst;
 			sourceTree = "<group>";
 		};
@@ -627,14 +597,24 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0700;
+				LastUpgradeCheck = 1020;
+				TargetAttributes = {
+					3BA658BFB8EAAA5E8FB4E7AE = {
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+					CAEE6CA51F1CBE8607E9FDA3 = {
+						LastSwiftMigration = 1020;
+						ProvisioningStyle = Automatic;
+					};
+				};
 			};
 			buildConfigurationList = D442626E576BD13009003325 /* Build configuration list for PBXProject "OOFoundation" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
-				en,
+				Base,
 			);
 			mainGroup = D9612E45289B02AC7A50B86B;
 			productRefGroup = D05D89FD8CCBD6CDC83BF255 /* Products */;
