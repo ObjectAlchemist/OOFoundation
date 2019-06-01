@@ -34,7 +34,7 @@ public final class DataFromInt: OOData {
 public extension DataFromInt {
     
     convenience init(_ int: Int) {
-        self.init(int)
+        self.init(IntConst(int))
     }
     
 }

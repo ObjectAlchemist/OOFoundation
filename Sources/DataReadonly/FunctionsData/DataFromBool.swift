@@ -34,7 +34,7 @@ public final class DataFromBool: OOData {
 public extension DataFromBool {
     
     convenience init(_ bool: Bool) {
-        self.init(bool)
+        self.init(BoolConst(bool))
     }
     
 }
